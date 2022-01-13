@@ -1,0 +1,70 @@
+img 
+/* Coloquei vw e vh para a imagem de fundo ocupar toda a tela sem necessidade de usar o scroll.
+ Simplificando a página inicial deixando ela bem clean e intuitiva */
+{
+    width: 100vw;
+    height: 100vh;
+    }
+
+    .gif 
+    /* Estilo do nosso gif/botao */
+    {
+      height: 150px;
+        width: 150px;
+        bottom: 40px;
+        left: 41%;
+        position: absolute;
+        display: inline-block;
+        padding: 15px 25px;
+    }
+
+pre {
+    padding: 15px 15px;
+}
+
+
+    .texto {
+        padding-top: 15px;
+        margin-top: 15px;
+        position: absolute;
+        left: 15%;
+        bottom: 200px;
+        vertical-align: center;
+        border-radius: 25px;
+        padding: 5px;
+        background-color: rgb(32, 30, 30);
+        height: 60%;
+        width: 70%;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 700;
+        color: aliceblue;      
+
+    }
+
+    .bt1 {
+        height: 40px;
+        width: 120px;
+        bottom: 85px;
+       left: 44%;
+      position: absolute;
+      display: inline-block;
+      padding: 5px 25px;
+      font-size: 20px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #3f3f3f;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px rgb(105, 103, 103);
+    }
+    .bt1:hover {background-color: #2c2c2c}
+    
+    .bt1:active {
+      background-color: #2c2c2c;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }

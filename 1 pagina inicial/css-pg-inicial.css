@@ -1,0 +1,39 @@
+.gif 
+/* Estilo do nosso gif/botao */
+{
+  height: 200px;
+    width: 200px;
+    bottom: 50px;
+    left: 41%;
+    position: absolute;
+    display: inline-block;
+    padding: 15px 25px;
+}
+ 
+
+img 
+/* Coloquei vw e vh para a imagem de fundo ocupar toda a tela sem necessidade de usar o scroll.
+ Simplificando a página inicial deixando ela bem clean e intuitiva */
+{
+    width: 100vw;
+    height: 100vh;
+    }
+
+
+/* Estilo do botao decorativo copy */
+
+.btn {
+    font-family: arial;
+    position: absolute;
+    bottom: 15px;    
+    left: 89%;
+    align-content: center;
+    border-radius: 10px;
+
+}
+
+.copy {
+    position: absolute;
+    color: rgb(214, 218, 14);
+	
+}
